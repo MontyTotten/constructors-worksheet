@@ -81,8 +81,8 @@ console.log(feline.speak());
 console.assert(slime.speak() === '...');
 console.assert(spot.speak() === 'woof');
 
-console.assert(Animal.prototype.eats = ['plant','fungus', 'algae', 'animal'])
-console.assert(Animal.prototype.eats = Animal);
+console.assert(Animal.prototype.eats = ['plant','fungus', 'algae', 'animal'] || Animal)
+console.assert(Dog.prototype.eats = Cat);
 
 
 
